@@ -1,6 +1,6 @@
 {
-  "name": "malicious-package",
-  "version": "1.0.0",
+  "name": "legit-package",
+  "version": "9.9.9",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Chris DeMars",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  }
 }
