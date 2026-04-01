@@ -9,5 +9,9 @@
   "keywords": [],
   "author": "Chris DeMars",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:4873"
+  }
 }
